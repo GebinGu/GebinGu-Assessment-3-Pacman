@@ -44,7 +44,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -58,7 +58,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -80,7 +80,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -92,7 +92,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -106,9 +106,9 @@ TextureImporter:
       name: Pac-Student_0
       rect:
         serializedVersion: 2
-        x: 40
+        x: 0
         y: 128
-        width: 48
+        width: 128
         height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -127,10 +127,10 @@ TextureImporter:
       name: Pac-Student_1
       rect:
         serializedVersion: 2
-        x: 160
+        x: 128
         y: 128
-        width: 80
-        height: 120
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,9 +148,9 @@ TextureImporter:
       name: Pac-Student_2
       rect:
         serializedVersion: 2
-        x: 296
+        x: 256
         y: 128
-        width: 48
+        width: 128
         height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -169,10 +169,10 @@ TextureImporter:
       name: Pac-Student_3
       rect:
         serializedVersion: 2
-        x: 32
+        x: 0
         y: 0
-        width: 80
-        height: 120
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
