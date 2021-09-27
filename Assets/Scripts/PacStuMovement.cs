@@ -14,6 +14,24 @@ public class PacStuMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            animatorController.SetTrigger("Up");
+        }
+
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            animatorController.SetTrigger("Right");
+        }
+
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            animatorController.SetTrigger("Left");
+        }
+
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            animatorController.SetTrigger("Down");
+        }
     }
 }
